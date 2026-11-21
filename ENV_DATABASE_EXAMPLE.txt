@@ -1,0 +1,9 @@
+# .env mein ye lines apne hisaab se daalein.
+# YOUR_PASSWORD ki jagah apna asli password likhein (sirf letters aur numbers).
+# Asli .env file ko GitHub par push NAHI karna.
+
+DATABASE_URL=postgresql+psycopg://smart_bus_user:YOUR_PASSWORD@localhost:5432/smart_bus_tracking
+
+# SECRET_KEY nayi banayein is command se:
+#   python -c "import secrets; print(secrets.token_hex(32))"
+SECRET_KEY=PASTE_YOUR_GENERATED_KEY_HERE
